@@ -47,12 +47,12 @@ h1 {
     color: white;
     }
    .beef{
-    background-color:#3333ff;
+    background-color:orangered;
     color: white;  
    }
    .sushi{
-    background-color:#993366;
-    color: white;   
+    background-color:cyan;
+    color: black;   
    }
 /* Large devices  */
 @media (min-width: 992px) {  
