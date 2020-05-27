@@ -26,9 +26,9 @@
 (
   function(window) {
     helloSpeaker={}
-      helloSpeaker.speakWord = "Hello";
+      var speakWord = "Hello";
       helloSpeaker.speak= function (name) {
-      console.log(helloSpeaker.speakWord + " " + name);
+      console.log(speakWord + " " + name);
     
       window.helloSpeaker=helloSpeaker;
     }
